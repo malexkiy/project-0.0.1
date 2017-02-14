@@ -1,4 +1,4 @@
-// project_0.0.1.cpp: определяет точку входа для консольного приложения.
+// project_0.0.1.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
@@ -21,7 +21,7 @@ int main(void)
 	cout << "float\t\t" << sizeof(float) << endl;
 	cout << "double\t\t" << sizeof(double) << endl;
 	cout << "long double\t" << sizeof(long double) << endl;
-	cout << "void\t\t" << 0 << endl;	//error C2070: void: недопустимый оператор sizeof. void - недопустимый неполный тип. Компилятор GNU gcc: sizeof(void) = 1 
+	cout << "void\t\t" << 0 << endl;	//error C2070: void: РЅРµРґРѕРїСѓСЃС‚РёРјС‹Р№ РѕРїРµСЂР°С‚РѕСЂ sizeof. void - РЅРµРґРѕРїСѓСЃС‚РёРјС‹Р№ РЅРµРїРѕР»РЅС‹Р№ С‚РёРї. РљРѕРјРїРёР»СЏС‚РѕСЂ GNU gcc: sizeof(void) = 1
 	cout << "nullptr_t\t" << sizeof(nullptr_t) << endl;
 
 	cin.get();
